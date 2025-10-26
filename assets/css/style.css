@@ -2069,6 +2069,18 @@ hr {
   border: 1px solid var(--border-color);
 }
 
+
+.google-map-container{
+  width: 100%;
+  height: 600px;
+  margin: 2rem 0; 
+}
+
+.google-map{
+  width: 100%;
+  height: 100%;
+}
+
 /* End Accordion */
 .cs_btn.cs_style_1 {
   display: -webkit-inline-box;
@@ -2499,6 +2511,8 @@ hr {
 .cs_img_box.cs_style_1 img {
   width: 100%;
   border-radius: 20px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .cs_img_box.cs_style_2 {

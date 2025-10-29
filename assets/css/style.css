@@ -2649,7 +2649,12 @@ hr {
 .cs_brand.cs_style_1 img {
   display: inline-block;
 }
-
+.menu-top-bar-text{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
 .cs_gallery.cs_style_1 {
   position: relative;
   overflow: hidden;
@@ -3970,9 +3975,123 @@ hr {
   color: #d9d9d9!important;
 }
 
+.wp-button-container{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 998;
+}
+
+.wp-button-container i{
+  font-size: 48px;
+  color: #25d366;
+  fill: #fff;
+}
+
+.wp-button-container:hover .wp-button-text{
+  opacity: 1!important;
+}
+
+@media (max-width: 500px) {
+  .wp-button-text{
+    display: none;
+  }
+  .wp-button-container{
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+.wp-button-text{
+  position: fixed;
+  right: 35px;
+  bottom: 100px;
+  width: 190px;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  border: 2px solid #fff;
+  padding: .2rem 0;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  z-index: 999;
+  transition: all .1s linear;
+}
+
+.wp-button-text::after{
+  content: '';
+  position: fixed;
+  bottom: 92px;
+  right: 52px;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  z-index: 998;
+}
+
+.flower-option-content{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 55px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem;
+}
+
+.flower-color-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.flower-color-option{
+  position: absolute;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 10;
+  border: 1px solid #fff;
+  background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(62, 156, 145, 1) 22%, rgba(87, 199, 133, 1) 50%, rgba(175, 212, 104, 1) 79%, rgba(237, 221, 83, 1) 100%);
+}
+
+.flower-color-option-2{
+  position: absolute;
+  z-index: 9;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 1) 24%, rgba(253, 29, 29, 1) 50%, rgba(252, 107, 50, 1) 76%, rgba(252, 176, 69, 1) 100%);
+}
+
+.flower-color-option{
+  color: #fff;
+}
+
 .menu_top_bar_in{
   display: flex!important;
-  justify-content: space-between!important;
+  justify-content:center;
   align-items: center!important;
 }
 

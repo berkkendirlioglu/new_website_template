@@ -5159,6 +5159,16 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
 .cs_hero.cs_style_1 .cs_hero_subtitle {
   max-width: 770px;
 }
+
+@media (max-width: 576px) {
+  .cs_hero.cs_style_1 .cs_hero_title {
+    padding: 0 2rem 0 0!important;
+    text-wrap: wrap;
+    width: 370px;
+    font-size: 48px;
+  }
+}
+
 @media (max-width: 1400px) {
   .cs_hero.cs_style_1 .cs_hero_subtitle {
     max-width: 690px;

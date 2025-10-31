@@ -4110,14 +4110,6 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
 }
 
 @media screen and (min-width: 1200px) {
-  .cs_main_header_center,
-  .cs_top_header_center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
   .cs_nav {
     display: -webkit-box;
     display: -ms-flexbox;

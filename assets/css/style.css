@@ -4091,7 +4091,7 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
 
 .menu_top_bar_in{
   display: flex!important;
-  justify-content:center;
+  justify-content:center!important;
   align-items: center!important;
 }
 

@@ -3361,11 +3361,6 @@ hr {
   opacity: 0 !important;
   height: 0 !important;
 }
-.menu_top_bar_in {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-}
 .menu_top_bar .top_bar_link {
   color: #fff !important;
   transition: all 0.1s linear;

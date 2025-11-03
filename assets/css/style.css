@@ -5674,10 +5674,10 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
   overflow: hidden;
   position: relative;
   display: block;
-  height: 400px;
+  height: 400px!important;
 }
 .cs_card.cs_style_2 .cs_card_thumb img {
-  height: 400px;
+  height: 400px!important;
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;

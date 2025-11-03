@@ -4825,10 +4825,11 @@ hr {
   overflow: hidden;
   position: relative;
   display: block;
-  min-height: 320px;
+  min-height: 400px;
 }
 .cs_card.cs_style_2 .cs_card_thumb img {
   min-height: inherit;
+  height: 400px!important;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;

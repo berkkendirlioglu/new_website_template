@@ -4468,13 +4468,6 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
   .cs_site_header .current-menu-item > a:before {
     display: none;
   }
-  .cs_site_header.cs_style_1 .cs_main_header_center .cs_site_branding {
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
   .cs_site_header.cs_style_1 {
     top: 0;
   }
@@ -5681,10 +5674,10 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(188, 44, 109, 
   overflow: hidden;
   position: relative;
   display: block;
-  min-height: 320px;
+  height: 400px;
 }
 .cs_card.cs_style_2 .cs_card_thumb img {
-  min-height: inherit;
+  height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;

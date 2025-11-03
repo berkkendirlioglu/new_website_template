@@ -3527,13 +3527,6 @@ hr {
 }
 
 @media screen and (min-width: 1200px) {
-  .cs_main_header_center,
-  .cs_top_header_center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
   .cs_nav {
     display: flex;
     align-items: center;
@@ -3836,12 +3829,6 @@ hr {
   }
   .cs_site_header .current-menu-item > a:before {
     display: none;
-  }
-  .cs_site_header.cs_style_1 .cs_main_header_center .cs_site_branding {
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%);
   }
   .cs_site_header.cs_style_1 {
     top: 0;
